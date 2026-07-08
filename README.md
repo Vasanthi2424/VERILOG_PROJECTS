@@ -2,9 +2,9 @@
 
 Welcome to the **Verilog HDL Projects** repository! This repository is a comprehensive collection of Verilog programs designed to help students, beginners, and FPGA enthusiasts learn digital design from the fundamentals to advanced RTL development.
 
-Whether you're preparing for **VLSI interviews**, **FPGA development**, **college labs**, or **GATE/ECE**, these projects provide practical hands-on experience with Verilog HDL.
+Whether you're preparing for **VLSI interviews**, **FPGA development**, **college labs** these projects provide practical hands-on experience with Verilog HDL.
 
----
+
 
 ## 📖 About
 
@@ -12,7 +12,7 @@ This repository includes a wide variety of digital design projects implemented u
 
 The goal is to provide a structured learning resource for mastering digital logic design and hardware description language concepts.
 
----
+
 
 ## ✨ Features
 
@@ -24,7 +24,6 @@ The goal is to provide a structured learning resource for mastering digital logi
 - FPGA implementation compatible
 - Organized project structure
 
----
 
 ## 📂 Project Categories
 
@@ -76,7 +75,7 @@ The goal is to provide a structured learning resource for mastering digital logi
 - Clock Divider
 - Sequence Detector
 
----
+
 
 ## 🛠 Software Used
 
@@ -85,7 +84,7 @@ The goal is to provide a structured learning resource for mastering digital logi
 - Xilinx Vivado
 - EDA Playground
 
----
+
 
 ## 📁 Repository Structure
 
@@ -109,7 +108,7 @@ Verilog-Projects
 └── README.md
 ```
 
----
+
 
 ## Running the Projects in Vivado
 
@@ -121,7 +120,6 @@ Verilog-Projects
 6. Verify the outputs using the Vivado waveform viewer.
 7. (Optional) Run Synthesis and Implementation for FPGA deployment.
 
----
 
 ## Learning Outcomes
 
@@ -136,7 +134,7 @@ By completing these projects, you will gain experience in:
 - Synthesis and implementation
 - FPGA design flow using Vivado
 
----
+
 
 ## Author
 
@@ -144,7 +142,7 @@ By completing these projects, you will gain experience in:
 
 M.Tech – VLSI & Embedded Systems
 
----
+
 
 ## License
 
