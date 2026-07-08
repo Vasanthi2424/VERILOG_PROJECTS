@@ -143,7 +143,6 @@ By completing these projects, you will gain experience in:
 M.Tech – VLSI & Embedded Systems
 
 
-
 ## License
 
 This repository is intended for educational and learning purposes. Feel free to use, modify, and share the projects with proper attribution.
