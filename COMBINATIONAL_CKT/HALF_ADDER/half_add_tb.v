@@ -1,27 +1,20 @@
 `timescale 1ns/1ps
-module full_adder_tb;
-reg a, b, cin;
-wire sum, cout;
-// Instantiate the Full Adder
-full_adder uut (
+module half_adder_tb;
+reg a,b;
+wire sum,carry;
+half_adder uut(
     .a(a),
     .b(b),
-    .cin(cin),
     .sum(sum),
-    .cout(cout)
+    .carry(carry)
 );
-initial
-begin
-    $monitor("Time=%0t A=%b B=%b Cin=%b Sum=%b Cout=%b",
-              $time, a, b, cin, sum, cout);
-    a = 0; b = 0; cin = 0; #10;
-    a = 0; b = 0; cin = 1; #10;
-    a = 0; b = 1; cin = 0; #10;
-    a = 0; b = 1; cin = 1; #10;
-    a = 1; b = 0; cin = 0; #10;
-    a = 1; b = 0; cin = 1; #10;
-    a = 1; b = 1; cin = 0; #10;
-    a = 1; b = 1; cin = 1; #10;
-    $finish;
+initial begin
+$monitor("A=%b B=%b SUM=%b CARRY=%b",a,b,sum,carry);
+a=0;b=0;#10;
+a=0;b=1;#10;
+a=1;b=0;#10;
+a=1;b=1;#10;
+$finish;
 end
 endmodule
+
